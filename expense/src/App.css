@@ -66,10 +66,12 @@ h4 {
 
 .money.plus {
   color: #2ecc71;
+  margin-right: 20px;
 }
 
 .money.minus {
   color: #c0392b;
+  margin-left: 20px;
 }
 
 label {
