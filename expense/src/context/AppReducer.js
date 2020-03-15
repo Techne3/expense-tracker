@@ -7,6 +7,11 @@ export default (state, action) => {
           trans => trans.id !== action.payload
         )
       };
+    case "ADD_TRANSACTION":
+      return {
+        ...state,
+        transactions: [...state.transactions, action.payload]
+      };
     default:
       return state;
   }
